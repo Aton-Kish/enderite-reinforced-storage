@@ -17,8 +17,27 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": ["atonkish.enderitestorage.EnderiteReinforcedStorageMod"],
-    "client": ["atonkish.enderitestorage.EnderiteReinforcedStorageClientMod"]
+    "reinfcore": [
+      "atonkish.enderitestorage.entrypoint.reinfcore.ReinforcedCoreEntrypoint"
+    ],
+    "reinfchest": [
+      "atonkish.enderitestorage.entrypoint.reinfchest.ReinforcedChestsEntrypoint"
+    ],
+    "reinfshulker": [
+      "atonkish.enderitestorage.entrypoint.reinfshulker.ReinforcedShulkerBoxesEntrypoint"
+    ],
+    "reinfbarrel": [
+      "atonkish.enderitestorage.entrypoint.reinfbarrel.ReinforcedBarrelsEntrypoint"
+    ],
+    "reinfcoreclient": [
+      "atonkish.enderitestorage.entrypoint.reinfcore.ReinforcedCoreClientEntrypoint"
+    ],
+    "reinfchestclient": [
+      "atonkish.enderitestorage.entrypoint.reinfchest.ReinforcedChestsClientEntrypoint"
+    ],
+    "reinfshulkerclient": [
+      "atonkish.enderitestorage.entrypoint.reinfshulker.ReinforcedShulkerBoxesClientEntrypoint"
+    ]
   },
   "mixins": ["enderitestorage.mixins.json"],
 
