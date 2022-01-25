@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "enderitestorage:enderite_shulker_box",
+    "enderitestorage:black_enderite_shulker_box",
+    "enderitestorage:blue_enderite_shulker_box",
+    "enderitestorage:brown_enderite_shulker_box",
+    "enderitestorage:cyan_enderite_shulker_box",
+    "enderitestorage:gray_enderite_shulker_box",
+    "enderitestorage:green_enderite_shulker_box",
+    "enderitestorage:light_blue_enderite_shulker_box",
+    "enderitestorage:light_gray_enderite_shulker_box",
+    "enderitestorage:lime_enderite_shulker_box",
+    "enderitestorage:magenta_enderite_shulker_box",
+    "enderitestorage:orange_enderite_shulker_box",
+    "enderitestorage:pink_enderite_shulker_box",
+    "enderitestorage:purple_enderite_shulker_box",
+    "enderitestorage:red_enderite_shulker_box",
+    "enderitestorage:white_enderite_shulker_box",
+    "enderitestorage:yellow_enderite_shulker_box"
+  ]
+}

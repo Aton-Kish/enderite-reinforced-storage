@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["S", "C", "S"],
+  "key": {
+    "C": {
+      "item": "enderitestorage:enderite_chest"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "result": {
+    "item": "enderitestorage:enderite_shulker_box"
+  }
+}

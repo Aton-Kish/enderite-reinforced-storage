@@ -22,6 +22,7 @@ public class ReinforcedCoreEntrypoint implements ReinforcedCoreModInitializer {
             // Reinforced Storage Screen Handler
             ReinforcedCoreRegistry.registerMaterialSingleBlockScreenHandler(material);
             ReinforcedCoreRegistry.registerMaterialDoubleBlockScreenHandler(material);
+            ReinforcedCoreRegistry.registerMaterialShulkerBoxScreenHandler(material);
         }
     }
 }

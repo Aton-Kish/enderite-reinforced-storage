@@ -1,0 +1,73 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "enderitestorage:enderite_shulker_box_smithing",
+      "enderitestorage:white_enderite_shulker_box_smithing",
+      "enderitestorage:orange_enderite_shulker_box_smithing",
+      "enderitestorage:magenta_enderite_shulker_box_smithing",
+      "enderitestorage:light_blue_enderite_shulker_box_smithing",
+      "enderitestorage:yellow_enderite_shulker_box_smithing",
+      "enderitestorage:lime_enderite_shulker_box_smithing",
+      "enderitestorage:pink_enderite_shulker_box_smithing",
+      "enderitestorage:gray_enderite_shulker_box_smithing",
+      "enderitestorage:light_gray_enderite_shulker_box_smithing",
+      "enderitestorage:cyan_enderite_shulker_box_smithing",
+      "enderitestorage:purple_enderite_shulker_box_smithing",
+      "enderitestorage:blue_enderite_shulker_box_smithing",
+      "enderitestorage:brown_enderite_shulker_box_smithing",
+      "enderitestorage:green_enderite_shulker_box_smithing",
+      "enderitestorage:red_enderite_shulker_box_smithing",
+      "enderitestorage:black_enderite_shulker_box_smithing"
+    ]
+  },
+  "criteria": {
+    "has_netherite_shulker_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "reinfshulker:netherite_shulker_box",
+              "reinfshulker:white_netherite_shulker_box",
+              "reinfshulker:orange_netherite_shulker_box",
+              "reinfshulker:magenta_netherite_shulker_box",
+              "reinfshulker:light_blue_netherite_shulker_box",
+              "reinfshulker:yellow_netherite_shulker_box",
+              "reinfshulker:lime_netherite_shulker_box",
+              "reinfshulker:pink_netherite_shulker_box",
+              "reinfshulker:gray_netherite_shulker_box",
+              "reinfshulker:light_gray_netherite_shulker_box",
+              "reinfshulker:cyan_netherite_shulker_box",
+              "reinfshulker:purple_netherite_shulker_box",
+              "reinfshulker:blue_netherite_shulker_box",
+              "reinfshulker:brown_netherite_shulker_box",
+              "reinfshulker:green_netherite_shulker_box",
+              "reinfshulker:red_netherite_shulker_box",
+              "reinfshulker:black_netherite_shulker_box"
+            ]
+          }
+        ]
+      }
+    },
+    "has_enderite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["enderitemod:enderite_ingot"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderitestorage:enderite_shulker_box_smithing"
+      }
+    }
+  },
+  "requirements": [
+    ["has_netherite_shulker_box", "has_enderite_ingot", "has_the_recipe"]
+  ]
+}

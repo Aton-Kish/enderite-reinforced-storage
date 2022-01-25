@@ -21,6 +21,7 @@ public class ReinforcedCoreClientEntrypoint implements ReinforcedCoreClientModIn
             // Reinforced Storage Screen
             ReinforcedCoreClientRegistry.registerMaterialSingleBlockScreen(material);
             ReinforcedCoreClientRegistry.registerMaterialDoubleBlockScreen(material);
+            ReinforcedCoreClientRegistry.registerMaterialShulkerBoxScreen(material);
         }
     }
 }

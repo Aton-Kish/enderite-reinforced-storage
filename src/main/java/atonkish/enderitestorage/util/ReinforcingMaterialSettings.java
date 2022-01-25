@@ -1,9 +1,12 @@
 package atonkish.enderitestorage.util;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.ShulkerBoxBlockEntity;
 import net.minecraft.item.Item;
 import net.minecraft.sound.BlockSoundGroup;
 
@@ -40,5 +43,20 @@ public enum ReinforcingMaterialSettings {
 
     public Item.Settings getItemSettings() {
         return this.itemSettings;
+    }
+
+    public Block.Settings getShulkerBlockSettings() {
+        AbstractBlock.ContextPredicate contextPredicate = (state, world, pos) -> {
+            BlockEntity blockEntity = world.getBlockEntity(pos);
+            if (!(blockEntity instanceof ShulkerBoxBlockEntity)) {
+                return true;
+            } else {
+                ShulkerBoxBlockEntity shulkerBoxBlockEntity = (ShulkerBoxBlockEntity) blockEntity;
+                return shulkerBoxBlockEntity.suffocates();
+            }
+        };
+
+        return this.blockSettings.dynamicBounds().nonOpaque().suffocates(contextPredicate)
+                .blockVision(contextPredicate);
     }
 }

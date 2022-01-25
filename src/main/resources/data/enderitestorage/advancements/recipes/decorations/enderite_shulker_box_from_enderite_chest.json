@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["enderitestorage:enderite_shulker_box_from_enderite_chest"]
+  },
+  "criteria": {
+    "has_enderite_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["enderitestorage:enderite_chest"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderitestorage:enderite_shulker_box_from_enderite_chest"
+      }
+    }
+  },
+  "requirements": [["has_enderite_chest", "has_the_recipe"]]
+}
