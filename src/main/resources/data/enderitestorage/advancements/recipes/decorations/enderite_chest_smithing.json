@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["enderitestorage:enderite_chest_smithing"]
+  },
+  "criteria": {
+    "has_netherite_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["reinfchest:netherite_chest"]
+          }
+        ]
+      }
+    },
+    "has_enderite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["enderitemod:enderite_ingot"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "enderitestorage:enderite_chest_smithing"
+      }
+    }
+  },
+  "requirements": [
+    ["has_netherite_chest", "has_enderite_ingot", "has_the_recipe"]
+  ]
+}

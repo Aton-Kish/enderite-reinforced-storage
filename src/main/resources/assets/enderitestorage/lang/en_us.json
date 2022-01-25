@@ -1,0 +1,6 @@
+{
+  "container.enderitestorage.enderiteChest": "Enderite Chest",
+  "container.enderitestorage.enderiteChestDouble": "Large Enderite Chest",
+  "block.enderitestorage.enderite_chest": "Enderite Chest",
+  "stat.enderitestorage.open_enderite_chest": "Enderite Chests Opened"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "reinfchest:netherite_chest"
+  },
+  "addition": {
+    "item": "enderitemod:enderite_ingot"
+  },
+  "result": {
+    "item": "enderitestorage:enderite_chest"
+  }
+}
