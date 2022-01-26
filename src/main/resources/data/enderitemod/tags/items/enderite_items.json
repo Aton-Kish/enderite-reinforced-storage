@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "enderitestorage:enderite_chest",
-    "#enderitestorage:enderite_shulker_boxes"
+    "#enderitestorage:enderite_shulker_boxes",
+    "enderitestorage:enderite_barrel"
   ]
 }

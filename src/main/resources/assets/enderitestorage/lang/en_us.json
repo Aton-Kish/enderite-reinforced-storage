@@ -22,5 +22,8 @@
   "block.enderitestorage.red_enderite_shulker_box": "Red Enderite Shulker Box",
   "block.enderitestorage.black_enderite_shulker_box": "Black Enderite Shulker Box",
   "stat.enderitestorage.clean_enderite_shulker_box": "Enderite Shulker Boxes Cleaned",
-  "stat.enderitestorage.open_enderite_shulker_box": "Enderite Shulker Boxes Opened"
+  "stat.enderitestorage.open_enderite_shulker_box": "Enderite Shulker Boxes Opened",
+  "container.enderitestorage.enderiteBarrel": "Enderite Barrel",
+  "block.enderitestorage.enderite_barrel": "Enderite Barrel",
+  "stat.enderitestorage.open_enderite_barrel": "Enderite Barrels Opened"
 }
