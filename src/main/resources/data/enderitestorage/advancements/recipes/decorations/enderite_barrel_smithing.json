@@ -1,9 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [
-      "enderitestorage:enderite_barrel_smithing"
-    ]
+    "recipes": ["enderitestorage:enderite_barrel_smithing"]
   },
   "criteria": {
     "has_netherite_barrel": {
@@ -11,9 +9,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "reinfbarrel:netherite_barrel"
-            ]
+            "items": ["reinfbarrel:netherite_barrel"]
           }
         ]
       }
@@ -23,9 +19,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "enderitemod:enderite_ingot"
-            ]
+            "items": ["enderitemod:enderite_ingot"]
           }
         ]
       }
@@ -38,10 +32,6 @@
     }
   },
   "requirements": [
-    [
-      "has_netherite_barrel",
-      "has_enderite_ingot",
-      "has_the_recipe"
-    ]
+    ["has_netherite_barrel", "has_enderite_ingot", "has_the_recipe"]
   ]
 }
