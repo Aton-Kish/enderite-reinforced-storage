@@ -1,8 +1,17 @@
 {
   "replace": false,
   "values": [
-    "enderitestorage:enderite_chest",
-    "#enderitestorage:enderite_shulker_boxes",
-    "enderitestorage:enderite_barrel"
+    {
+      "id": "enderitestorage:enderite_chest",
+      "required": false
+    },
+    {
+      "id": "#enderitestorage:enderite_shulker_boxes",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:enderite_barrel",
+      "required": false
+    }
   ]
 }
