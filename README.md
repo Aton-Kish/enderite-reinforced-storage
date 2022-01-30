@@ -18,13 +18,13 @@ This depends on:
   - CurseForge: <https://www.curseforge.com/minecraft/mc-mods/enderite-mod-for-fabric>
   - GitHub: <https://github.com/Nic4Las/Minecraft-Enderite-Mod>
 - At least one of the reinforced storage mods
-  - **Reinforced Chests** (*Version 2.0.0 and above*)
+  - **Reinforced Chests** (_Version 2.0.0 and above_)
     - CurseForge: <https://www.curseforge.com/minecraft/mc-mods/reinforced-chests>
     - GitHub: <https://github.com/Aton-Kish/reinforced-chests>
-  - **Reinforced Shulker Boxes** (*Version 2.0.0 and above*)
+  - **Reinforced Shulker Boxes** (_Version 2.0.0 and above_)
     - CurseForge: <https://www.curseforge.com/minecraft/mc-mods/reinforced-shulker-boxes>
     - GitHub: <https://github.com/Aton-Kish/reinforced-shulker-boxes>
-  - **Reinforced Barrels** (*Version 2.0.0 and above*)
+  - **Reinforced Barrels** (_Version 2.0.0 and above_)
     - CurseForge: <https://www.curseforge.com/minecraft/mc-mods/reinforced-barrels>
     - GitHub: <https://github.com/Aton-Kish/reinforced-barrels>
 
