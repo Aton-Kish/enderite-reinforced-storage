@@ -3,7 +3,11 @@
   "minVersion": "0.8",
   "package": "atonkish.enderitestorage.mixin",
   "compatibilityLevel": "JAVA_16",
-  "mixins": [],
+  "mixins": [
+    "LootManagerMixin",
+    "RecipeManagerMixin",
+    "ServerAdvancementLoaderMixin"
+  ],
   "client": [],
   "injectors": {
     "defaultRequire": 1
