@@ -30,8 +30,6 @@ This depends on:
 
 ## Recipe
 
-### Smithing
-
 | Name                 | Type            | Ingredients                            | Recipe                                                                                                                    | Description                                                                                                                                                                                       |
 | -------------------- | --------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enderite Chest       | Smithing        | Netherite Chest + Enderite Ingot       | <img alt="Enderite Chest Recipe" src="./images/recipes/enderite_chest_smithing.png" width="256" />                        | A enderite chest has 108 slots of inventory space, and a large enderite chest has twice that amount, at 216 slots. This is resistant to blast, fire and lava. When you drop it, it floats on air. |
