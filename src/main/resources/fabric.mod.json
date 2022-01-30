@@ -17,6 +17,7 @@
 
   "environment": "*",
   "entrypoints": {
+    "main": ["atonkish.enderitestorage.EnderiteReinforcedStorageMod"],
     "reinfcore": [
       "atonkish.enderitestorage.entrypoint.reinfcore.ReinforcedCoreEntrypoint"
     ],
