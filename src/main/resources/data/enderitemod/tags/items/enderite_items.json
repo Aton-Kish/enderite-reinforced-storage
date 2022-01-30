@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "enderitestorage:enderite_chest",
+      "required": false
+    },
+    {
+      "id": "#enderitestorage:enderite_shulker_boxes",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:enderite_barrel",
+      "required": false
+    }
+  ]
+}

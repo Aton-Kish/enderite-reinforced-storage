@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#enderitestorage:enderite_shulker_boxes",
+      "required": false
+    }
+  ]
+}

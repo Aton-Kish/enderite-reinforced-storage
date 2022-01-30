@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "reinfshulker:magenta_netherite_shulker_box"
+  },
+  "addition": {
+    "item": "enderitemod:enderite_ingot"
+  },
+  "result": {
+    "item": "enderitestorage:magenta_enderite_shulker_box"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "enderitestorage:enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:black_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:blue_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:brown_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:cyan_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:gray_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:green_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:light_blue_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:light_gray_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:lime_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:magenta_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:orange_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:pink_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:purple_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:red_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:white_enderite_shulker_box",
+      "required": false
+    },
+    {
+      "id": "enderitestorage:yellow_enderite_shulker_box",
+      "required": false
+    }
+  ]
+}

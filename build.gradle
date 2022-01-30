@@ -16,6 +16,41 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
+	maven {
+		url "https://www.cursemaven.com"
+		content {
+			includeGroup "curse.maven"
+		}
+	}
+
+	maven {
+		url "https://raw.githubusercontent.com/Aton-Kish/mcmod/maven"
+	}
+
+	// Quick Shulker
+	maven {
+		url "https://maven.kyrptonaught.dev"
+	}
+
+	// Shulker Box Tooltip
+	maven {
+		url "https://maven.misterpemodder.com/libs-release"
+	}
+
+	// Mod Menu (Shulker Box Tooltip deps)
+	maven {
+		url "https://maven.terraformersmc.com/releases/"
+	}
+
+	// Cloth Config (Shulker Box Tooltip deps)
+	maven {
+		url "https://maven.shedaniel.me"
+	}
+
+	// Fabric ASM (Shulker Box Tooltip deps)
+	maven {
+		url "https://jitpack.io"
+	}
 }
 
 dependencies {
@@ -26,6 +61,18 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// Enderite Mod
+	modImplementation "curse.maven:enderite-mod-for-fabric-399221:${project.enderite_mod_file_id}"
+
+	// Reinforced Chests
+	modImplementation "atonkish.reinfchest:reinforced-chests:${project.reinforced_chests_version}"
+
+	// Reinforced Shulker Boxes
+	modImplementation "atonkish.reinfshulker:reinforced-shulker-boxes:${project.reinforced_shulker_boxes_version}"
+
+	// Reinforced Barrels
+	modImplementation "atonkish.reinfbarrel:reinforced-barrels:${project.reinforced_barrels_version}"
 }
 
 processResources {
@@ -68,5 +115,8 @@ publishing {
 		// Notice: This block does NOT have the same function as the block in the top level.
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
+		maven {
+			url "file:/$buildDir/maven"
+		}
 	}
 }
