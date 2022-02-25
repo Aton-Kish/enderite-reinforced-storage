@@ -34,7 +34,7 @@ public class ReinforcedShulkerBoxesEntrypoint implements ReinforcedShulkerBoxesM
 
             // Items
             ReinforcedShulkerBoxesRegistry.registerMaterialDyeColorItem(EnderiteReinforcedStorageMod.MOD_ID, material,
-                    (DyeColor) null, materialSettings.getItemSettings());
+                    (DyeColor) null, materialSettings.getShulkerItemSettings());
             for (DyeColor color : DyeColor.values()) {
                 ReinforcedShulkerBoxesRegistry.registerMaterialDyeColorItem(EnderiteReinforcedStorageMod.MOD_ID,
                         material, color, materialSettings.getItemSettings());
