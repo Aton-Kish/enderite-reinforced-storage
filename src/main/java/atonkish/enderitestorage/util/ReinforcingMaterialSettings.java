@@ -59,4 +59,8 @@ public enum ReinforcingMaterialSettings {
         return this.blockSettings.dynamicBounds().nonOpaque().suffocates(contextPredicate)
                 .blockVision(contextPredicate);
     }
+
+    public Item.Settings getShulkerItemSettings() {
+        return this.itemSettings.maxCount(1);
+    }
 }
