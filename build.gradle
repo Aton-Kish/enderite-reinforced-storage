@@ -18,11 +18,15 @@ repositories {
 	// for more information about repositories.
 
 	// Enderite
+	// NOTE: curse maven may be disabled.
+	// maven {
+	// 	url "https://www.cursemaven.com"
+	// 	content {
+	// 		includeGroup "curse.maven"
+	// 	}
+	// }
 	maven {
-		url "https://www.cursemaven.com"
-		content {
-			includeGroup "curse.maven"
-		}
+		url "file:/$projectDir/maven"
 	}
 
 	// Reinforced Storage
